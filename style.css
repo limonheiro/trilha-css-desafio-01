@@ -131,7 +131,7 @@ main{
 }
 
 #transform-world{
-    background-image: url('assets/images/woman-code.png');
+    background-image: url('assets/images/woman-code.webp');
     width: 100%;
     min-height: 363px;
     background-attachment: fixed;
