@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #33A8DB;
+}
+
+header {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    background-image: url('assets/images/banner.png');
+    box-shadow: inset 0px -50px 1100px 200px #000000ee;
+    padding-top: 56px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banner-content>h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg,#33A8DB,#1472B7);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.banner-content>p{
+    width: 510px;
+    font-size: 19px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.banner-content>button{
+    width: 326px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #31A8DD;
+    padding: 19px 46px;
+    background-color: transparent;
+    /* border: 1px solid linear-gradient(180deg,#33A8DB,#1472B7); */
+    border-image: linear-gradient(180deg,#33A8DB,#1472B7);
+    border-width: 3px;
+    border: solid;
+    
+}
+
+.logo{
+    width: 268;
+    height: 268;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 100%;
+}
+
+main{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    padding-top: 118px;
+    background-color: #000;
+   
+}
+
+#course-content{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 66px;
+    border-bottom: 1px solid #33A8DB;
+   
+}
+
+#course-content>h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #31A8DD;
+}
+
+#course-content>p{
+    font-size: 1rem;
+    font-weight: normal;
+    width: 792px;
+}
+
+.modules-list{
+    /* width: 535px; */
+    padding-bottom: 75px;
+    /* border-bottom: 1px solid #33A8DB; */
+}
+
+.modules-list > .module {
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 24px;
+	padding-top: 1rem;
+	background: #252525;
+	border-radius: 57px;
+	border: 1px solid #33A8DB;
+	padding-bottom: 1rem;
+	width: 535px;
+    box-shadow: inset 0px 4px 5px 2px #000000a8;
+}
+
+.module>span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url('assets/images/woman-code.png');
+    width: 100%;
+    min-height: 363px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world > p {
+	font-size: 40px;
+	font-weight: 800;
+    text-align: left;
+	width: 244px;
+	text-transform: lowercase;
+	color: white;
+    text-shadow: 2px 3px 1px #33A8DB;
+	position: relative;
+	top: 100px;
+	left: 198px;
+}
+
+#professional-challenges{
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges>h2{
+    color: #33A8DB;
+    font-size: 32px;
+    font-weight: bold;
+    width: 746px;
+    padding-top: 76px;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.36rem;
+}
+
+#professional-challenges>p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    width: 792px;
+    padding-top: 40px;
+    padding-bottom: 91px;
+}
+
+footer{
+    display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    padding-top: 59px;
+    gap:10px;
+    padding-bottom: 36px;
+    color: white;
+    background: #33A8DB;
+    box-shadow: inset 0px 100px 200px 60px #000;
+}
+
+footer>p>a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #33A8DB;
+}
